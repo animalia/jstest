@@ -1,5 +1,5 @@
 class JstestGrailsPlugin {
-    def version = "0.2-SNAPSHOT"
+    def version = "0.2.1"
     def grailsVersion = "2.0 > *"
     def dependsOn = [:]
     def pluginExcludes = [
