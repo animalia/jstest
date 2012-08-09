@@ -57,7 +57,7 @@ class GrailsJavaScriptTestType extends GrailsTestTypeSupport {
 				notifier.fireTestFailure(new Failure(description, runner.lastException))
 			}
 			notifier.fireTestFinished(description)
-			reportsFactory.createReports(testName)
+			//reportsFactory.createReports(testName)
 		}
 		notifier.fireTestRunFinished(result)
 		return new GrailsJavaScriptTestTypeResult(runCount:files.size(), failCount:failCount);
